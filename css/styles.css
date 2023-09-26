@@ -28,7 +28,7 @@ body {
 
 /* STUDIO STYLES */
 /* HEADER STYLES */
-a {
+.link {
   text-decoration: none;
 }
 ul {
