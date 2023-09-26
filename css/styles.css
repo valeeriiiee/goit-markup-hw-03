@@ -55,6 +55,9 @@ ul {
 .header-link:hover {
   color: var(--IRIS);
 }
+.header-link:focus {
+  color: var(--IRIS);
+}
 a[href="mailto:info@devstudio.com"] {
   font-size: 16px;
   color: var(--SLATE);
@@ -94,6 +97,13 @@ a[href="tel:+11(000)111-11-11"]:hover {
   font-family: inherit;
   border: none;
   border-radius: 4px;
+}
+.hero-button:hover {
+  cursor: pointer;
+  background-color: var(--SLATE);
+}
+.hero-button:focus {
+  background-color: var(--SLATE);
 }
 /* END OF FIRST SECTION STYLES */
 /* VISSION MISSION STYLES */
