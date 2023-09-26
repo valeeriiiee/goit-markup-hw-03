@@ -76,6 +76,12 @@ a[href="mailto:info@devstudio.com"]:hover {
 a[href="tel:+11(000)111-11-11"]:hover {
   color: var(--IRIS);
 }
+a[href="mailto:info@devstudio.com"]:focus {
+  color: var(--IRIS);
+}
+a[href="tel:+11(000)111-11-11"]:focus {
+  color: var(--IRIS);
+}
 /* END OF HEADER STYLES */
 /* FIRST SECTION STYLES */
 .hero {
