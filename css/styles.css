@@ -144,10 +144,10 @@ footer {
 
 /* PORTFOLIO STYLES */
 /* PORTFOLIO MAIN MENU STYLES */
-.portfolio-main-menu {
+.portfolio-menu {
   align-items: center;
 }
-.portfolio-main-menu-link {
+.portfolio-menu-link {
   color: var(--IRIS);
   font-size: 16px;
   font-weight: 500;
@@ -156,7 +156,7 @@ footer {
   border-color: var(--CORNFLOWER);
   border-radius: 4px;
 }
-.portfolio-main-menu-link:hover {
+.portfolio-menu-link:hover {
   background-color: var(--OCEAN);
   color: var(--WHITE);
 }
