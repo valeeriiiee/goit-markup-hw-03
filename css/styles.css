@@ -7,11 +7,26 @@
   --CORNFLOWER: #e7e9fc;
   --OCEAN: #404bbf;
 }
-/* MAIN PAGE STYLES */
-/* STYLES FOR MAIN TAGS */
+
+/* GENERAL STYLES */
 body {
   font-family: "Roboto", sans-serif;
 }
+.header-three {
+  color: var(--NAVY-BLUE);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+.description {
+  color: var(--SLATE);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+/* END OF GENERAL STYLES */
+
+/* STUDIO STYLES */
 /* HEADER STYLES */
 a {
   text-decoration: none;
@@ -31,13 +46,13 @@ ul {
 .logo-header span {
   color: var(--IRIS);
 }
-.main-header-menu-link {
+.header-link {
   font-size: 16px;
   font-weight: 500;
   color: var(--NAVY-BLUE);
   letter-spacing: 0.32px;
 }
-.main-header-menu-link:hover {
+.header-link:hover {
   color: var(--OCEAN);
 }
 a[href="mailto:info@devstudio.com"] {
@@ -58,6 +73,7 @@ a[href="mailto:info@devstudio.com"]:hover {
 a[href="tel:+11(000)111-11-11"]:hover {
   color: var(--OCEAN);
 }
+/* END OF HEADER STYLES */
 /* FIRST SECTION STYLES */
 .main-heading {
   background-color: var(--NAVY-BLUE);
@@ -77,30 +93,35 @@ a[href="tel:+11(000)111-11-11"]:hover {
   letter-spacing: 0.64px;
   font-family: inherit;
 }
+/* END OF FIRST SECTION STYLES */
 /* VISSION MISSION STYLES */
-h3 {
+.vission-mission-header {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.4px;
   color: var(--NAVY-BLUE);
 }
-p {
+.vission-mission-description {
   color: var(--SLATE);
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.32px;
 }
-h2 {
+/* END OF VISSION MISSION STYLES */
+/* WHAT ARE WE DOING SECTION STYLES*/
+.subheader {
   text-align: center;
   color: var(--NAVY-BLUE);
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.72px;
 }
-/* OUR TEAM STYLES */
+/* END OF WHAT ARE WE DOING SECTION STYLES*/
+/* OUR TEAM SECTION STYLES */
 .team {
   background-color: var(--CLOUD);
 }
+/* END OF OUR TEAM SECTION STYLES */
 /* FOOTER STYLES */
 footer {
   background-color: var(--NAVY-BLUE);
@@ -118,6 +139,9 @@ footer {
 .p-footer {
   color: var(--CLOUD);
 }
+/* END OF FOOTER STYLES */
+/* END OF STUDIO STYLES */
+
 /* PORTFOLIO STYLES */
 /* PORTFOLIO MAIN MENU STYLES */
 .portfolio-main-menu {
@@ -136,8 +160,11 @@ footer {
   background-color: var(--OCEAN);
   color: var(--WHITE);
 }
+/* END OF PORTFOLIO MAIN MENU STYLES */
 /* SERVICES MENU STYLES */
 .services-menu-item {
   border-color: 1px var(--CORNFLOWER);
   background-color: var(--WHITE);
 }
+/* END OF SERVICES MENU STYLES */
+/* END OF PORTFOLIO STYLES */
