@@ -86,6 +86,7 @@ a[href="tel:+11(000)111-11-11"]:focus {
 /* FIRST SECTION STYLES */
 .hero {
   background-color: var(--NAVY-BLUE);
+  text-align: center;
 }
 .hero-header {
   color: var(--WHITE);
