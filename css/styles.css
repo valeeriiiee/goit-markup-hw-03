@@ -23,16 +23,22 @@ body {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.32px;
+  line-height: 24px;
 }
 .container {
   width: 1158px;
 }
 .d-flex {
   display: flex;
+  justify-content: center;
 }
 .list {
   list-style-type: none;
   display: flex;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 /* END OF GENERAL STYLES */
 
@@ -41,6 +47,8 @@ body {
 .header {
   align-items: center;
   justify-content: space-around;
+  border-bottom: 1px solid var(--CORNFLOWER);
+  background-color: var(--WHITE);
 }
 .header .d-flex {
   align-items: center;
@@ -161,18 +169,28 @@ a[href="tel:+11(000)111-11-11"]:focus {
   font-weight: 700;
   letter-spacing: 0.72px;
 }
+.services .list {
+  gap: 24px;
+}
 /* END OF WHAT ARE WE DOING SECTION STYLES*/
 /* OUR TEAM SECTION STYLES */
 .team {
   background-color: var(--CLOUD);
 }
 .team .list {
-  gap
+  gap: 24px;
 }
+.team-members-item {
+  background-color: white;
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+
 /* END OF OUR TEAM SECTION STYLES */
 /* FOOTER STYLES */
-footer {
+.footer {
   background-color: var(--NAVY-BLUE);
+  padding: 100px 0px 100px 156px;
 }
 .logo-footer {
   color: var(--CLOUD);
