@@ -29,15 +29,10 @@ body {
 }
 .d-flex {
   display: flex;
-  /* align-items: center; */
 }
 .list {
   list-style-type: none;
   display: flex;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;
 }
 /* END OF GENERAL STYLES */
 
@@ -150,6 +145,13 @@ a[href="tel:+11(000)111-11-11"]:focus {
   font-weight: 400;
   letter-spacing: 0.32px;
 }
+.vission-mission {
+  flex-direction: column;
+}
+.vission-mission .list {
+  justify-content: center;
+  gap: 24px;
+}
 /* END OF VISSION MISSION STYLES */
 /* WHAT ARE WE DOING SECTION STYLES*/
 .subheader {
@@ -163,6 +165,9 @@ a[href="tel:+11(000)111-11-11"]:focus {
 /* OUR TEAM SECTION STYLES */
 .team {
   background-color: var(--CLOUD);
+}
+.team .list {
+  gap
 }
 /* END OF OUR TEAM SECTION STYLES */
 /* FOOTER STYLES */
