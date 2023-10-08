@@ -87,6 +87,8 @@ a[href="tel:+11(000)111-11-11"]:focus {
 .hero {
   background-color: var(--NAVY-BLUE);
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 .hero-header {
   color: var(--WHITE);
@@ -104,6 +106,7 @@ a[href="tel:+11(000)111-11-11"]:focus {
   font-family: inherit;
   border: none;
   border-radius: 4px;
+  padding: 16px 32px;
 }
 .hero-button:hover {
   cursor: pointer;
