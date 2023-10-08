@@ -26,7 +26,7 @@ body {
   line-height: 24px;
 }
 .container {
-  width: 1158px;
+  width: 1440px;
 }
 .d-flex {
   display: flex;
@@ -213,7 +213,11 @@ a[href="tel:+11(000)111-11-11"]:focus {
 .portfolio-menu {
   align-items: center;
 }
-.portfolio-menu-link {
+.portfolio-menu-list {
+  gap: 24px;
+  justify-content: center;
+}
+.portfolio-menu-button {
   color: var(--IRIS);
   font-size: 16px;
   font-weight: 500;
@@ -221,8 +225,11 @@ a[href="tel:+11(000)111-11-11"]:focus {
   background-color: var(--CLOUD);
   border-color: var(--CORNFLOWER);
   border-radius: 4px;
+  padding: 12px 24px;
+  font-family: "Roboto", sans-serif;
+  gap: 24px;
 }
-.portfolio-menu-link:hover {
+.portfolio-menu-button:hover {
   background-color: var(--OCEAN);
   color: var(--WHITE);
 }
@@ -231,6 +238,11 @@ a[href="tel:+11(000)111-11-11"]:focus {
 .services-menu-item {
   border-color: 1px var(--CORNFLOWER);
   background-color: var(--WHITE);
+}
+.services-menu {
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 /* END OF SERVICES MENU STYLES */
 /* END OF PORTFOLIO STYLES */
